@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Eulerian Tools Avimtech Laboratory</title>
+
+    <!-- This site uses the following libraries -->
+    <!-- three.js : https://threejs.org -->
+    <script src="three.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div id="WebGL-output"></div>
+    <div id="top-left-box">
+      <div class="connect-container">
+        <button id="connect" class="button black">Connect</button>
+        <span id="status"></span>
+       
+      </div>
+       <!-- Добавленная строка для динамического текста -->
+       <div id="dynamic-text"></div>
+    </div>
+    <div id="bottom-left-box"></div>
+    <div id="bottom-right-box">
+      <div id="copyright">&copy; Avimtech Laboratory .</div>
+    </div>
+    <button id="reset-camera-button" style="position: fixed; top: 10px; right: 10px; z-index: 100;">Reset Camera</button>
+
+    <script src="scripts.js"></script>
+    <script src="web_usb/usb_serial.js"></script>
+    <script src="web_usb/usb_app.js"></script>
+    <script src="web_usb/parsing_json.js"></script>
+    <script src="quaternion_function.js"></script>
+   
+  </body>
+</html>

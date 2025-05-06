@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#top-left-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  z-index: 100;
+  display: block;
+}
+.connect-container {
+  display: flex;
+  align-items: center;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.button.black {
+  background-color: black;
+  color: white;
+  border: none;
+}
+#status {
+  margin-left: 10px;
+}
+h1#title {
+  margin: 0;
+  font-size: medium;
+  font-weight: normal;
+  display: inline-block;
+}
+#bottom-left-box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  z-index: 100;
+  display: block;
+}
+#bottom-right-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  z-index: 100;
+  display: block;
+}
